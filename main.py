@@ -1,13 +1,13 @@
 from machine import Pin
 import machine
-import onewire
-import ds18x20
+import lib.onewire as onewire
+import lib.ds18x20 as ds18x20
 import time
 import binascii
 import time
-import led
-import acm1602
-import onboardtempr
+import lib.led as led
+import lib.acm1602 as acm1602
+import lib.onboardtempr as onboardtempr
 
 UPDATE_TIME_SEC = 1
 ROOM_TEMPR_DISP_TIME_SEC = 1
